@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.into, body, .projList{
+    background-color: #1D1D20;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 10vw;
+}
+
+.border {
+    height: 100%;
+    width: 100%;
+    color: #C4C4C4;
+    border-radius: 10px;
+    border: 0.5rem solid transparent;
+    background: linear-gradient(135deg, #C9BA5A,#7D7882 15%, #1D1D20 15% 85%, #7D7882 85%, #C9BA5A) border-box;
+}
+
+.into {
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+}
+
+.header {
+    padding: 0 5%;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    height: 15%;
+}
+
+.colHead {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo>img {
+    height: 50%;
+    margin-left: 1vw;
+}
+
+.icons {
+    display: inline-flex;
+    justify-content: end;
+}
+
+.icons>img {
+    height: 50%;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.content {
+    padding: 0 5%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+}
+
+.col {
+    margin: 0 1rem;
+}
+
+.col>h1 {
+    font-size: 10vh;
+    font-weight: 100;
+}
+
+.col>h2 {
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+}
+
+.info {
+    width: 80%;
+}
+
+.projects {
+    width: 20%;
+}
+
+.borderProj {
+    height: 100%;
+    width: 100%;
+    border: 0.2rem solid transparent;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #7D7882, #C9BA5A 25%, #1D1D20 15%) border-box;
+}
+
+.projList {
+    display: flex;
+    border-radius: 3px;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.proj>h3 {
+    font-size: 90%;
+    font-weight: 100;
+    margin-bottom: 0.5rem;
+    border-bottom: 0.1rem solid;
+    border-image: linear-gradient(#1D1D20, #1D1D20) 1;
+}
+
+.proj>h3:hover {
+    cursor: pointer;
+    border-bottom: 0.1rem solid;
+    border-image: linear-gradient(#7D7882, #C9BA5A) 1;
+}
+
+.footer {
+    height: 20%;
+}
+
+.footer>h4 {
+    font-size: 0.8rem;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+}
