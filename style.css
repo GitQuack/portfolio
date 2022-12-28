@@ -54,10 +54,15 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
+    margin-left: -2.5vw;
 }
 
-.logo>img {
+.logo>a {
     height: 70%;
+}
+
+.logo>a>img {
+    height: 100%;
 }
 
 .right {
@@ -69,10 +74,10 @@ body {
     height: 100%;
     align-items: center;
     display: flex;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 
-.icons>img {
+.icons>a>img {
     height: 1.7rem;
     margin-bottom: 0.5rem;
     border-bottom: 0.15rem solid;
@@ -80,7 +85,7 @@ body {
     border-image: linear-gradient(135deg, #1D1D20, #1D1D20) 1;
 }
 
-.icons>img:hover {
+.icons>a>img:hover {
     cursor: pointer;
     border-image: linear-gradient(135deg, #C9BA5A, #7D7882, #C9BA5A) 1;
 }
